@@ -8,6 +8,9 @@
       "expo-router"
     ],
     "name": "HYNKLYNK",
-    "slug": "HYNKLYNK"
+    "slug": "HYNKLYNK",
+    "ios": {
+      "bundleIdentifier": "com.anonymous.HYNKLYNK"
+    }
   }
 }
