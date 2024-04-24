@@ -3,7 +3,7 @@ import { View, ScrollView, SafeAreaView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, images, SIZES } from '../constants';
-import { NearbyJobCard, Nearbyjobs, Popularjobs, PopularJobs, ScreenHeaderBtn, Weclome, Welcome } from '../components';
+import { NearbyJobCard, Nearbyjobs, Popularjobs, PopularJobs, ScreenHeaderBtn, Weclome, Welcome, LoginPage } from '../components';
 
 const Home = () => {
     const router = useRouter();
@@ -30,13 +30,9 @@ const Home = () => {
                     }}
                 >
 
-                    <Welcome />
-                    <Popularjobs />
-                    <Nearbyjobs />
+                    <LoginPage/>
                 </View>
             </ScrollView>
-
-
         </SafeAreaView>
     )
 
